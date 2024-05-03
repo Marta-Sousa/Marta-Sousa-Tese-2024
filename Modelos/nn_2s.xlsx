@@ -1,0 +1,11 @@
+dataset,AUC-cv,Accuracy-cv,Precision-cv,Recall-cv,F1 score-cv,AUC-test,Accuracy-test,Precision-test,Recall-test,F1 score-test,params,AUC,Accuracy,Precision,Recall,F1 score
+Acustic,0.6891,0.6118,0.6145,0.7115,0.6553,0.5414,0.5579,0.5652,0.7647,0.65,"{'batch_size': 128, 'epochs': 150, 'model__neurons': 50, 'optimizer__learning_rate': 0.0001}",,,,,
+Cepstral,0.6573,0.6248,0.6402,0.666,0.6502,0.5947,0.6,0.6182,0.6667,0.6415,"{'batch_size': 32, 'epochs': 120, 'model__neurons': 130, 'optimizer__learning_rate': 0.0001}",,,,,
+Everything-val,0.7617,0.6849,0.7017,0.7103,0.7022,0.668,0.6737,0.6786,0.7451,0.7103,"{'batch_size': 32, 'epochs': 150, 'model__neurons': 100, 'optimizer__learning_rate': 0.0001}",,,,,
+Feature Selection-val,0.7403,0.6803,0.6725,0.7455,0.7066,0.7201,0.7263,0.7193,0.8039,0.7593,"{'batch_size': 32, 'epochs': 80, 'model__neurons': 160, 'optimizer__learning_rate': 0.0001}",,,,,
+Everything,0.8085,0.7164,0.7271,0.7364,0.7295,0.637,0.6421,0.6545,0.7059,0.6792,"{'batch_size': 32, 'epochs': 150, 'model__neurons': 160, 'optimizer__learning_rate': 0.0001}",,,,,
+Feature Selection,0.8226,0.7531,0.7383,0.815,0.7741,0.6386,0.6421,0.6604,0.6863,0.6731,"{'batch_size': 32, 'epochs': 120, 'model__neurons': 100, 'optimizer__learning_rate': 0.0001}",,,,,
+Acustic,,,,,,,,,,,,0.5025,0.4571,0.4556,1.0,0.626
+Cepstral,,,,,,,,,,,,0.5498,0.5684,0.5392,0.3454,0.4211
+Everything-val,,,,,,,,,,,,0.6958,0.6697,0.5808,0.9819,0.7299
+Feature Selection-val,,,,,,,,,,,,0.6186,0.5849,0.5228,0.988,0.6838

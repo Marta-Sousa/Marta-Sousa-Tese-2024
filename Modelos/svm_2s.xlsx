@@ -1,0 +1,11 @@
+dataset,AUC-cv,Accuracy-cv,Precision-cv,Recall-cv,F1 score-cv,AUC-test,Accuracy-test,Precision-test,Recall-test,F1 score-test,params,AUC,Accuracy,Precision,Recall,F1 score
+Acustic,0.7419,0.6937,0.737,0.6674,0.6881,0.6221,0.6211,0.6596,0.6078,0.6327,"{'C': 41, 'gamma': 5, 'kernel': 'rbf'}",,,,,
+Cepstral,0.9511,0.913,1.0,0.8341,0.9079,0.9314,0.9263,1.0,0.8627,0.9263,"{'C': 1, 'gamma': 1, 'kernel': 'rbf'}",,,,,
+Everything-val,0.9371,0.8766,0.99,0.7727,0.8654,0.9118,0.9053,1.0,0.8235,0.9032,"{'C': 1, 'gamma': 0.5, 'kernel': 'rbf'}",,,,,
+Feature Selection-val,0.9146,0.8264,1.0,0.6682,0.7984,0.8318,0.8211,0.9722,0.6863,0.8046,"{'C': 6, 'gamma': 5, 'kernel': 'rbf'}",,,,,
+Everything,0.9504,0.8539,1.0,0.7205,0.8342,0.8824,0.8737,1.0,0.7647,0.8667,"{'C': 1, 'gamma': 1, 'kernel': 'rbf'}",,,,,
+Feature Selection,0.9402,0.881,0.9606,0.8061,0.8723,0.9169,0.9158,0.9388,0.902,0.92,"{'C': 1, 'gamma': 1, 'kernel': 'rbf'}",,,,,
+Acustic,,,,,,,,,,,,0.4895,0.5237,0.413,0.1145,0.1792
+Cepstral,,,,,,,,,,,,0.5,0.5456,0.0,0.0,0.0
+Everything-val,,,,,,,,,,,,0.5,0.5456,0.0,0.0,0.0
+Feature Selection-val,,,,,,,,,,,,0.5089,0.5529,0.7222,0.0261,0.0504
