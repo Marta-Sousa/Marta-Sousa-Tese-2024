@@ -5,4 +5,4 @@ In this repository are 2 files in python. One to compute the acoustic parametric
  
 The other file, the "Pearson_r.m" is the code developed to compute the Pearson's correlation coefficient, also used as an input, that requires some data from "All_features.ipynb" such as the funcamental frequency of each siganl.
 
-As for the pastes, _Database_ contains the data from VOiCeD (sub-pastes _waves1s_ and _waves2s_) and SVD, the paste _Dados_ has the products of the file "All_features.ipynb" ans "Pearson_r.m", while _Modelos_ has the results of "Models.ipynb"
+As for the folders, _Database_ contains the data from VOiCeD (sub-pastes _waves1s_ and _waves2s_) and SVD, the folder _Dados_ has the products of the file "All_features.ipynb" ans "Pearson_r.m", while _Modelos_ has the results of "Models.ipynb"
